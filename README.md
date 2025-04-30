@@ -1,56 +1,92 @@
-🏠 House Price Prediction using Machine Learning 
-This project demonstrates a machine learning approach to predict house prices based on various features using a Jupyter Notebook. It includes data preprocessing, model training, evaluation, and visualization using Python libraries such as pandas, numpy, matplotlib, and scikit-learn.
+# 🏠 House Price Prediction using Machine Learning
 
-**📁 Dataset**
+This project demonstrates a machine learning approach to predict house prices based on various features using a Jupyter Notebook. It includes data preprocessing, model training, evaluation, and visualization using Python libraries such as **pandas**, **numpy**, **matplotlib**, and **scikit-learn**.
 
-The dataset (House Price Prediction Dataset.csv) contains attributes related to house listings such as:
-Location
-Size (sqft)
-Number of Bedrooms
-Number of Bathrooms
-Age of the Property
-Price (Target variable)
+---
 
-**⚙️ Workflow**
+## 📁 Dataset
 
-Data Loading and initial exploration
-Data Cleaning: dropping unused columns like Id, Garage, etc.
-Feature Engineering: one-hot encoding for categorical variables (e.g., Location)
-Train/Test Split (80/20)
+The dataset (`House Price Prediction Dataset.csv`) includes the following features:
 
-**Model Training:**
+- 📍 Location  
+- 📐 Size (in square feet)  
+- 🛏️ Number of Bedrooms  
+- 🛁 Number of Bathrooms  
+- 🏗️ Age of the Property  
+- 💰 Price (Target variable)
 
-Linear Regression
-Polynomial Regression (Degree 2)
-Feature Scaling using StandardScaler
+---
 
-Evaluation using:
-Mean Squared Error (MSE)
-R² Score
-Visualization: Actual vs Predicted price scatter plot
+## ⚙️ Workflow
 
-Model Coefficients overview
+1. **Data Loading** and Initial Exploration  
+2. **Data Cleaning**: Dropping unused columns (e.g., `Id`, `Garage`, etc.)  
+3. **Feature Engineering**: One-hot encoding for categorical features (`Location`)  
+4. **Train/Test Split**: 80% training and 20% testing  
 
-**🧪 Model Performance**
+---
 
-Example outputs include:
-Linear Regression MSE and R² Score
-Polynomial Regression MSE and R² Score
-Visualization of actual vs predicted prices
+## 🤖 Model Training
 
-**🧰 Tools & Technologies**
+- **Linear Regression**
+- **Polynomial Regression** (Degree 2)
+- **Feature Scaling** using `StandardScaler`
 
-Python 3
-Jupyter Notebook / Google Colab
-Libraries:
-pandas
-numpy
-matplotlib
-scikit-learn
+---
 
-**📌 Future Enhancements**
+## 📊 Model Evaluation
 
-Try advanced models like Random Forest, Gradient Boosting, or XGBoost
-Add interactive web interface for predictions
-Implement cross-validation for robust performance
+The models are evaluated using the following metrics:
 
+- ✅ Mean Squared Error (MSE)
+- ✅ R² Score
+
+📉 A scatter plot is used to visualize **Actual vs Predicted Prices**.
+
+🧾 Additionally, model coefficients are examined for insights.
+
+---
+
+## 🧪 Example Performance Results
+
+> (Replace with your actual values if available)
+
+**Linear Regression**
+- MSE: _e.g., 1,120,000_
+- R² Score: _e.g., 0.87_
+
+**Polynomial Regression**
+- MSE: _e.g., 920,000_
+- R² Score: _e.g., 0.91_
+
+---
+
+## 🧰 Tools & Technologies
+
+- **Python 3**
+- **Jupyter Notebook / Google Colab**
+- **Libraries**:
+  - pandas  
+  - numpy  
+  - matplotlib  
+  - scikit-learn  
+
+---
+
+## 🚀 Future Enhancements
+
+- 🔍 Experiment with advanced models like **Random Forest**, **Gradient Boosting**, or **XGBoost**
+- 🌐 Build an interactive **web interface** for real-time predictions
+- ✅ Implement **cross-validation** for more robust evaluation
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙌 Contributions
+
+Feel free to open issues or submit pull requests to contribute!
